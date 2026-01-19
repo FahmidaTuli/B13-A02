@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* shared style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn{
+    background-image: linear-gradient(to right,#F7E93F 0, #FB09B4 51% ,#9100F8 100%);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight:600;
+    color: #FFFFFF;
+    cursor: auto;
+    }
+.btn:hover{
+    background-color: #0000008e;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.font-regular{
+    font-size: 16px;
+    color:rgb(209, 209, 209);
+    text-align: center;
+}
+
+/* main style */
+header{
+    background-color: #1A0B2E;
+    padding: 16px 200px;
+}
+
+nav {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    /* align-items: center; */
+}
+
+nav .menu a{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+main #banner-container {
+    background: url("../assets/hero-bg.png");
+    width: 1600px;
+    height: 760px;
+    margin:0 auto;
+    padding: 101px 525px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.banner-content{
+    margin: 101px 525px;
+}
+.banner-content .banner-image{
+    display: grid;
+    place-items: center;
+    background: url("../assets/hero-circle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 800px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.banner-content p{
+   margin-bottom: 24px;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid #00FF88;
+    padding: 12px 16px;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight:600;
+    color: #00FF88;
+    cursor: auto;
+}
+.banner-content .display-flex{
+    gap:8px;
+}
+
+
+
