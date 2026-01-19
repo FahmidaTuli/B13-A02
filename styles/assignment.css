@@ -169,6 +169,69 @@ nav .menu a{
     margin-bottom: 16px;
 }
 
+/* choose section */
+#choose{
+    background-color: #230E3D;
+    width: 1600px;
+    height: 1121px;
+    margin:0 auto;
+    padding: 120px 200px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.box{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 40px;
+    
+}
+
+.box h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.box p{
+    text-align: left;
+}
+
+.box-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 40px;
+    
+}
+
+#box-1{
+    grid-row: span 2;
+}
+
+.side{
+    grid-column: span 2;
+}
+    
+#box-4{
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 790px;
+    height: 273px;
+    
+}
+#box-5{
+    grid-column: span 1;
+}
+
 
 
 
