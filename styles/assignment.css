@@ -82,6 +82,10 @@ nav .btn:hover{
     
 }
 
+nav>ul>span{
+    display: none;
+}
+
 /* banner section */
  #banner-container {
     background: url("../assets/hero-bg.png");
@@ -396,20 +400,77 @@ nav .btn:hover{
 }
 
 
-.hide{
-    display: none !important;
-}
 
 
 /* responsive code */
 @media screen and (max-width:576px){
     
-.box-container{
-    
+    nav{
+        flex-direction: row;
+        gap: 239px;
+    }
+    nav>ul>span{
+    display: flex;
+}
+    ul>li{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+
+    .facts-container{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    #about{
+        padding: 40px 20px 40px 20px;
+    }
+    #choose{
+     margin-top: 0px;
+     height: 1450px;  
+     flex-direction: column;
+     padding: 40px 20px 40px 20px;
+  }
+  .container{
+    padding: 40px 20px 40px 20px;
+  }
+.card-container{
+    flex-direction: column;
+    align-items: center;
+}
+  .box-container{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
+    
 }
 
+#featured{
+    height: 1936px
+    
+}
+.featured-container{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.card{
+    height: 385px;
+}
+.host-container{
+     padding-top: 0px;
+}
+.host-container> content:{
+    flex-direction: column;
+}
+.footer-container{
+        /* height: 248px ; */
+        margin-bottom: 0px;
+    }
+
+.icons{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
