@@ -48,6 +48,8 @@
 header{
     background-color: #1A0B2E;
     padding: 16px 200px;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 nav {
@@ -73,6 +75,7 @@ nav .menu a{
     text-decoration: none;
     
 }
+
 
 nav .btn:hover{
     transform:scale(1.5)
@@ -393,6 +396,21 @@ nav .btn:hover{
 }
 
 
+.hide{
+    display: none !important;
+}
+
+
+/* responsive code */
+@media screen and (max-width:576px){
+    
+.box-container{
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+}
 
 
 
