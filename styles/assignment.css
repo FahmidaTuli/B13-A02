@@ -232,6 +232,140 @@ nav .menu a{
     grid-column: span 1;
 }
 
+/* youtube section */
+#featured{
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 1276px;
+    margin: 0 auto;
+    padding: 120px 200px;
+}
+
+.card-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.card{
+    width: 380px;
+    height: 440px;
+    background-color: #250D44;
+    border-radius: 24px;
+
+}
+.card iframe{
+    padding: 0;
+    margin: 0;
+    border-radius: 24px;
+} 
+.card h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 24px 24px 0px 24px;
+    
+}
+.card p{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: left;
+    padding: 0px 24px;
+}
+
+.card .time{
+    font-size: 16px;
+    color: #00FF88;
+    
+}
+
+/* host section */
+.contentainer{
+    background-color: #250D44;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    border-radius: 24px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.host-content{
+    width: 896px;
+    height: 183px;
+
+}
+.host-content h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.host-content p{
+    text-align: left;
+    margin-bottom: 16px;
+}
+.icon-container{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 8px;
+}
+.host-content .icon{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #533C72;
+    border-radius: 50% ;
+    
+    
+}
+
+
+/* footer section */
+.footer-container{
+    background-image: url(../assets/footer-bg.png);
+    width: 1600px;
+    height: 412px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.social-media{
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+}
+
+
+
+
+
 
 
 
