@@ -71,7 +71,14 @@ nav .menu a{
     font-weight: 500;
     color: #FFFFFF;
     text-decoration: none;
+    
 }
+
+nav .btn:hover{
+    transform:scale(1.5)
+    
+}
+
 /* banner section */
  #banner-container {
     background: url("../assets/hero-bg.png");
